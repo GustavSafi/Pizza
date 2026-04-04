@@ -1,0 +1,167 @@
+PIZZERIA WEBSITE MASTER PLAN (MODERN ITALIAN STYLE)
+
+1. GOAL & VISION
+- Sell pizza online (delivery/takeaway)
+- Build strong Italian premium brand
+- Showcase menu and experience
+- Drive traffic via SEO
+
+2. TARGET AUDIENCE
+- Local customers
+- Food enthusiasts
+- Tourists (mobile-first users)
+
+3. DESIGN SYSTEM
+Colors:
+- Dark Green (#1F3D2B)
+- Wine Red (#7A1E1E)
+- Beige (#F5E6D3)
+- Near Black (#1A1A1A)
+
+Typography:
+- Headings: Serif (Playfair Display)
+- Body: Sans-serif (Inter)
+- Accent: Handwritten style
+
+UI:
+- Rounded cards
+- Soft shadows
+- Glassmorphism overlays
+- Subtle hover animations
+
+4. SITE STRUCTURE
+/
+├── /menu
+│   ├── /pizza
+│   ├── /pasta
+│   ├── /dessert
+├── /order
+├── /about
+├── /gallery
+├── /contact
+└── /admin
+
+5. HOME PAGE
+- Hero (video/image + CTA)
+- Featured menu
+- Story section
+- Reviews carousel
+- CTA section
+
+6. MENU SYSTEM
+- Filters (categories)
+- Search
+- Dynamic cards
+
+Pizza Card:
+- Image
+- Name
+- Ingredients
+- Price
+- Add to cart
+
+Extras:
+- Customize pizza
+- Size selection
+- Add-ons
+
+7. ORDER SYSTEM
+Flow:
+1. Add product
+2. Cart
+3. Checkout
+4. Payment
+5. Confirmation
+
+Features:
+- Real-time cart
+- Order tracking
+
+Payments:
+- Stripe
+- Klarna
+- Swish
+
+8. ADMIN PANEL
+- Manage menu (CRUD)
+- View orders
+- Update status
+
+Dashboard:
+- Daily orders
+- Revenue
+- Popular items
+
+9. RESPONSIVE DESIGN
+- Mobile-first
+- Sticky navbar
+- Bottom cart bar
+
+10. TECH STACK
+Frontend:
+- Next.js
+- Tailwind CSS
+- Framer Motion
+
+Backend:
+- Node.js / Express OR Next.js API
+
+Database:
+- PostgreSQL
+- Prisma ORM
+
+Auth:
+- JWT / Clerk / Firebase
+
+Hosting:
+- Vercel
+- Railway / Supabase
+
+11. COMPONENT STRUCTURE
+/components
+- Navbar
+- Footer
+- PizzaCard
+- Cart
+- Modal
+- Button
+- Input
+
+12. STATE MANAGEMENT
+- Zustand OR Redux
+
+State includes:
+- Cart
+- User
+- Menu data
+- Orders
+
+13. PERFORMANCE & SEO
+- Meta tags
+- OpenGraph
+- Schema markup
+- Lazy loading images
+- CDN
+
+14. SECURITY
+- HTTPS
+- Input validation
+- Rate limiting
+- Secure payments
+
+15. PREMIUM FEATURES
+- Live order tracking
+- Google Maps integration
+- AI recommendations
+- Instagram feed
+- Optional background music
+
+16. IMPLEMENTATION PLAN
+Phase 1: Setup (Next.js, Tailwind)
+Phase 2: UI (Navbar, Home, Menu)
+Phase 3: Functionality (Cart, API, DB)
+Phase 4: Checkout (Payments)
+Phase 5: Admin panel
+Phase 6: Deployment (Vercel + domain)
+
+END OF PLAN
